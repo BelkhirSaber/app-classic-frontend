@@ -333,6 +333,7 @@ ul{list-style:none}
 	box-sizing: border-box;
 	position: relative;
 	height: 100%
+	overflow: hidden;
 }
 .portf .gallory .row div .overlay{
 	position: absolute;
@@ -369,7 +370,7 @@ ul{list-style:none}
 }
 .portf .gallory .row div:hover .overlay,
 .portf .gallory .row div:hover i{display: block}
-.portf .gallory .row div img{width:100%;height:100%;margin: 0;padding: 0}
+.portf .gallory .row div img{width:100%;height:auto;margin: 0;padding: 0;object-fit: cover}
 #Container .mix{display: none;height: 90px}
 /* End portf */
 /* Start Footer */
